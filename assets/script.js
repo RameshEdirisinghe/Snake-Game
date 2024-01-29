@@ -6,7 +6,8 @@ const highScoreText = document.getElementById('highScore');
 const startButton = document.getElementById("startButton");
 
 // Define game variables
-const gridSize = 20;
+const gridRow = 20;
+const gridColumn = 14;
 let snake = [{ x: 10, y: 10 }];
 let food = generateFood();
 let highScore = 0;
@@ -56,8 +57,8 @@ function drawFood() {
 
 
 function generateFood() {
-  const x = Math.floor(Math.random() * gridSize) + 1;
-  const y = Math.floor(Math.random() * gridSize) + 1;
+  const x = Math.floor(Math.random() * gridColumn) + 1;
+  const y = Math.floor(Math.random() * gridRow) + 1;
   return { x, y };
 }
 
@@ -136,6 +137,25 @@ function handleKeyPress(event) {
 startButton.addEventListener("click", startGame);
 document.addEventListener('keydown', handleKeyPress);
 
+function up() {
+  direction = 'up'; 
+  console.log(direction); 
+}
+
+function down() {
+  direction = 'down'; 
+  console.log(direction); 
+}
+
+function left() {
+  direction = 'left'; 
+  console.log(direction); 
+}
+
+function right() {
+  direction = 'right'; 
+  console.log(direction); 
+}
 
 function increaseSpeed() {
   
@@ -153,7 +173,7 @@ function increaseSpeed() {
 function checkCollision() {
   const head = snake[0];
 
-  if (head.x < 1 || head.x > gridSize || head.y < 1 || head.y > gridSize) {
+  if (head.x < 1 || head.x > gridColumn || head.y < 1 || head.y > gridRow) {
     resetGame();
   }
 
@@ -195,3 +215,4 @@ function updateHighScore() {
   highScoreText.style.display = 'block';
 }
  
+
