@@ -1,31 +1,33 @@
 body {
+ 
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   margin: 0;
   font-family: 'VT323', monospace;
-  background-color: #070707;
+  background-color: #ffffff;
 }
 
 
 .snake {
-  background-color: #1afc06;
+  background-color: #05023a;
+  
 }
 
 #game-board {
    
   display: grid;
   grid-template-columns: repeat(20, 20px);
-  grid-template-rows: repeat(20, 20px);
+  grid-template-rows: repeat(20, 20px); 
   margin: 5px;
-  background-color: #000000;
+  background-color:#fffbfb;
 }
 
 .game-border {
-  border: #71b3a2 solid 40px;
-  border-radius: 30px;
-  box-shadow: inset 0 0 0 10px #595f43;
+  border: #ADD8E6 solid 40px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 30px 10px #95d3e7;
 }
 
 
@@ -33,7 +35,7 @@ body {
 #instruction-text {
   position: absolute;
   top: 60%;
-  color: #7eecbe;
+  color: #00008B;
   width: 300px;
   text-align: center;
   text-transform: capitalize;
@@ -47,7 +49,7 @@ body {
 }
 
 #score {
-  color: #0af81e;
+  color: #00008B;
 }
 
 #score,
@@ -74,10 +76,31 @@ body {
 }
 
 .food {
-  background-color: #dedede;
-  border: #999 5px solid;
+  background-color: #ff0000;
+  border: #95d3e7 5px solid;
+  border-radius: 50%;
 }
 
 #logo {
+  width: 150px;
+  height:150px; 
   position: absolute;
+  background-color: #fff;
+  
+}
+#startButton{
+  position: absolute;
+  top: 65%;
+  color: #00008B;
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  border-radius: 24px;
+  cursor: pointer;
+  border: 2px solid #00008B ;
+  background-color: #fcfeff;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px 10px;
+  margin: 0;
 }
