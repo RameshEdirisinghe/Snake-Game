@@ -10,15 +10,17 @@ body {
 }
 
 
+
 .snake {
   background-color: #05023a;
   
 }
 
+
 #game-board {
    
   display: grid;
-  grid-template-columns: repeat(20, 20px);
+  grid-template-columns: repeat(14, 20px);
   grid-template-rows: repeat(20, 20px); 
   margin: 5px;
   background-color:#fffbfb;
@@ -103,4 +105,26 @@ body {
   text-transform: capitalize;
   padding: 10px 10px;
   margin: 0;
+}
+.control-buttons{
+  position: absolute;
+  top: 90%;  
+}
+.control{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 30%;
+  border: #5a5a5a;
+  box-shadow: 0px 0px 50px 8px #66777c;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  background-color:#5a5a5a;
+  padding: 10px;
+}
+
+@media screen and (min-width: 1150px) {
+  .control-buttons {
+    display: none; 
+  }
 }
