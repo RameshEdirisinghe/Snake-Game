@@ -8,7 +8,9 @@
     <script src="assets/script.js" defer></script>
   </head>
   <body>
+ 
     <div class = "game">
+      
       <div class="scores">
         <h1 id="score">000</h1>
         <h1 id="highScore">000</h1>
@@ -23,6 +25,13 @@
     <h1 id="instruction-text"></h1>
     <img src="assets/robot_1335336.png" alt="logo" class="logo" id="logo">
     <button id="startButton">Start Game</button>
+ 
+  </div>
+  <div class="control-buttons">
+    <button  class="control" id="control" onclick="up();"> Up</button>
+    <button class="control" id="control" onclick="down();">Down</button>
+    <button class="control" id="control" onclick="left();">Left</button>
+    <button class="control" id="control" onclick="right();">Right</button>
   </div>
   </body>
 </html>
