@@ -6,7 +6,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'VT323', monospace;
-  background-color: #ffffff;
+  background-image:  url('../Cloudy.svg');
 }
 
 
@@ -22,8 +22,8 @@ body {
   display: grid;
   grid-template-columns: repeat(14, 20px);
   grid-template-rows: repeat(20, 20px); 
-  margin: 5px;
   background-color:#fffbfb;
+  
 }
 
 .game-border {
