@@ -53,9 +53,19 @@ The game is deployed and can be played online at the following link:
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code adheres to the existing style and passes all tests.
 
+
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Contact
-For any questions or inquiries, please contact <a href="ranganathedirisingha@gmail.com">[ranganathedirisingha@gmail.com]</a>.
+For any questions or inquiries, please contact <a href="ranganathedirisingha@gmail.com">ranganathedirisingha@gmail.com</a>.
+
+<br>
+
+![image alt](https://github.com/RameshEdirisinghe/Fashion-Shop-Java/blob/915c362f2d92a0276358660f005e7157978f886b/Screenshot%202024-10-27%20010312.png?raw=true)
+<br>
+![image alt](https://github.com/RameshEdirisinghe/Fashion-Shop-Java/blob/915c362f2d92a0276358660f005e7157978f886b/Screenshot%202024-10-27%20010312.png?raw=true)
+
+
+
 
