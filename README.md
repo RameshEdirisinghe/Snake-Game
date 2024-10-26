@@ -48,7 +48,7 @@ This Snake Game project is a classic implementation of the snake game using HTML
 
 ## Deployment
 The game is deployed and can be played online at the following link:
-[Play Snake Game]([your-deployment-link](https://rameshedirisinghe.github.io/Snake-Game/))
+[Play Snake Game](https://rameshedirisinghe.github.io/Snake-Game/)
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code adheres to the existing style and passes all tests.
