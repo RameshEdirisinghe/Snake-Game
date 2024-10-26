@@ -62,9 +62,11 @@ For any questions or inquiries, please contact <a href="ranganathedirisingha@gma
 
 <br>
 
-![image alt](https://github.com/RameshEdirisinghe/Fashion-Shop-Java/blob/915c362f2d92a0276358660f005e7157978f886b/Screenshot%202024-10-27%20010312.png?raw=true)
+![image alt](https://github.com/RameshEdirisinghe/Snake-Game/blob/1f4881f053eca5687f09677392668218a0a3c802/Screenshot%202024-10-27%20011725.png?raw=true)
 <br>
-![image alt](https://github.com/RameshEdirisinghe/Fashion-Shop-Java/blob/915c362f2d92a0276358660f005e7157978f886b/Screenshot%202024-10-27%20010312.png?raw=true)
+<br>
+<br>
+![image alt](https://github.com/RameshEdirisinghe/Snake-Game/blob/1f4881f053eca5687f09677392668218a0a3c802/Screenshot%202024-10-27%20011657.png?raw=true)
 
 
 
